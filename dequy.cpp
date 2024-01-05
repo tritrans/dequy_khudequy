@@ -22,7 +22,7 @@ double tinh_gt(int n)
 	if (n == 0) return 0;
 	return n * tinh_gt(n - 1);
 }
-
+// Tinh giai thua khu de quy
 double tinh_gtk(int n)
 {
 	double t = 1;
